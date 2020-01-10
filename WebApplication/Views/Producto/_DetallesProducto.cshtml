@@ -1,0 +1,38 @@
+﻿@model Dominio.EntidadesDto.ProductoDto
+
+<div id="divDetalle" class="box box-primary box-solid animated fadeIn" >
+    <div class="box-header with-border">
+        <h3 class="box-title">Datos del Producto</h3>
+        <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse">
+                <i class="fa fa-minus"></i>
+            </button>
+        </div>
+        <!-- /.box-tools -->
+    </div>
+    <!-- /.box-header -->
+    <div class="box-body">
+
+        <div class="col-md-12">
+            <strong><i class="fa fa-shopping-bag margin-r-5"></i>Nombre del Producto</strong>
+            <p class="text-muted">@Model.Nombre</p>
+            <hr />
+        </div>
+        <div class="col-md-12">
+            <strong><i class="fa fa-leanpub margin-r-5"></i>Descripción</strong>
+            <p class="text-muted">@Model.Descripcion</p>
+            <hr />
+        </div>
+        <div class="col-md-12">
+            <strong><i class="fa fa-flag-checkered margin-r-5"></i>Marca</strong>
+            <p class="text-muted">@Model.Marca_nombre</p>
+            <hr />
+        </div>
+        <div class="col-md-12">
+            <strong><i class="fa fa-bookmark margin-r-5"></i>Categoría</strong>
+            <p class="text-muted">@Model.Categoria_nombre</p>
+            <hr />
+        </div>
+    </div>
+    <!-- /.box-body -->
+</div>

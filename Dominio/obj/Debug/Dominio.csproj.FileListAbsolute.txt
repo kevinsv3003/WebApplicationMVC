@@ -1,0 +1,46 @@
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\bin\Debug\Dominio.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\bin\Debug\Dominio.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\bin\Debug\AutoMapper.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\bin\Debug\Datos.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\bin\Debug\Entidades.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\bin\Debug\Datos.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\bin\Debug\AutoMapper.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\bin\Debug\AutoMapper.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\obj\Debug\Dominio.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Dominio\obj\Debug\Dominio.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\bin\Debug\Dominio.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\bin\Debug\Dominio.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\bin\Debug\AutoMapper.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\bin\Debug\Datos.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\bin\Debug\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\bin\Debug\Datos.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\bin\Debug\AutoMapper.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\bin\Debug\AutoMapper.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\obj\Debug\Dominio.csprojResolveAssemblyReference.cache
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\obj\Debug\Dominio.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Dominio\obj\Debug\Dominio.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\Dominio.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\Dominio.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\AutoMapper.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\Datos.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\Datos.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\Datos.dll.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\Entidades.dll.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\AutoMapper.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\AutoMapper.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\obj\Debug\Dominio.csproj.CopyComplete
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\obj\Debug\Dominio.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Dominio\obj\Debug\Dominio.pdb

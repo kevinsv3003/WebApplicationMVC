@@ -1,0 +1,63 @@
+﻿@model List<Dominio.EntidadesDto.ProductoDto>
+
+<div class="box box-primary " >
+    <div class="box-header with-border">
+        <i class="fa fa-shopping-bag"></i>
+        <h3 class="box-title">Listado de productos</h3>
+        <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="" data-original-title="Collapse">
+                <i class="fa fa-minus"></i>
+            </button>
+        </div>
+    </div>
+    <div class="box-body">
+
+        <table id="tablaProducto" class="table table-hover dataTable" style="border: 1px solid #dddddd" role="grid">
+            <thead>
+                <tr class="btn-primary">
+                    <th class="text-center">
+                        Producto
+                    </th>
+                    <th class="text-center">
+                        Descrpción
+                    </th>
+                    <th class="text-center">
+                        Marca
+                    </th>
+                    <th class="text-center">
+                        Categoría
+                    </th>
+                    <th class="text-center">
+                        Acciones
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">
+                            @item.Nombre
+                        </td>
+                        <td class="text-justify">
+                            @item.Descripcion
+                        </td>
+                        <td class="text-center">
+                            @item.Marca_nombre
+                        </td>
+                        <td class="text-center">
+                            @item.Categoria_nombre
+                        </td>
+                        <td style="width: 15em;" class="text-right">
+                            <a class="btn btn-flat btn-linkedin shadow grow btn-sp btnaccion" onclick="verDetallesProducto('@item.Nombre','@item.Descripcion','@item.Marca_nombre.ToString()', '@item.Categoria_nombre')" data-toggle="tooltip" data-html="true" data-placement="left" title="<h6><i class='fa fa-search' aria-hidden='true'></i> Ver Detalles</h6>">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+        <br />
+    </div>
+</div>

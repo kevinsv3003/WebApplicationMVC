@@ -1,0 +1,20 @@
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Entidades\bin\Debug\Entidades.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Entidades\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Entidades\obj\Debug\Entidades.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Entidades\obj\Debug\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\bin\Debug\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\obj\Debug\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\obj\Debug\Entidades.pdb

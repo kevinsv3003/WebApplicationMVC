@@ -1,0 +1,109 @@
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\obj\Debug\IoC.csprojResolveAssemblyReference.cache
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\IoC.dll.config
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\IoC.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\IoC.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Autofac.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Datos.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Dominio.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Entidades.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.Helpers.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.Mvc.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.Razor.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.WebPages.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\AutoMapper.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Datos.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Dominio.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Autofac.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Autofac.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.Helpers.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.Mvc.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.Razor.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.WebPages.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\AutoMapper.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\bin\Debug\AutoMapper.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\obj\Debug\IoC.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\IoC\obj\Debug\IoC.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\IoC.dll.config
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\IoC.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\IoC.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Autofac.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Datos.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Dominio.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.Helpers.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.Mvc.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.Razor.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.WebPages.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\AutoMapper.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Datos.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Dominio.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Autofac.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Autofac.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.Helpers.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.Mvc.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.Razor.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.WebPages.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\AutoMapper.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\bin\Debug\AutoMapper.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\obj\Debug\IoC.csprojResolveAssemblyReference.cache
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\obj\Debug\IoC.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\IoC\obj\Debug\IoC.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\IoC.dll.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\IoC.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\IoC.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Autofac.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Autofac.Integration.Mvc.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Datos.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Dominio.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.Helpers.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.Mvc.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.Razor.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.WebPages.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\AutoMapper.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Datos.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Datos.dll.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Dominio.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Entidades.dll.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Autofac.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Autofac.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\Autofac.Integration.Mvc.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.Helpers.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.Mvc.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.Razor.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.WebPages.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\AutoMapper.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\bin\Debug\AutoMapper.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\obj\Debug\IoC.csprojAssemblyReference.cache
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\obj\Debug\IoC.csproj.CoreCompileInputs.cache
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\obj\Debug\IoC.csproj.CopyComplete
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\obj\Debug\IoC.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\IoC\obj\Debug\IoC.pdb

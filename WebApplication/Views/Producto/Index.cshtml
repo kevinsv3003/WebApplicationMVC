@@ -1,0 +1,175 @@
+﻿
+@{
+    ViewBag.Title = "Productos";
+    ViewBag.url = @Url.Action("Index", "Producto");
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Styles.Render("~/AdminLTE/plugins/datatables/css")
+
+<section class="content">
+
+    <button type="button" class="btn float-left btn-primary" onclick="showModalNuevoProducto()">
+        <i class="fa fa-plus"></i>
+        Agregar Producto
+    </button>
+    <br />
+    <br />
+
+    <div id="viewListaProductoTabla" class="animated fadeIn">
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-7">
+          <div id="viewListaProductoCuadro" class="animated fadeIn"></div>
+        </div>
+
+        <div class="col-md-5">
+            <div id="ViewDetalleProducto">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="ModalAgregarProducto"></div>
+
+</section>
+
+
+@section Scripts {
+
+    @Scripts.Render("~/AdminLTE/plugins/datatables/js")
+    <script>
+
+        function showDetallesProducto(productoId) {
+            var url = '@Url.Action("_DetallesProducto", "Producto")';
+            $.ajax({
+
+                type: "POST",
+                url: url,
+                data: '{productoId: "' + productoId + '" }',
+                contentType: "application/json; charset=utf-8",
+                dataType: "html",
+                async: false,
+                success: function (response) {
+                    $('#ViewDetalleProducto').html(response);
+                },
+                error: function (response) { console.log(response); FailGuardar(response); }
+
+            });
+        }
+
+
+        function showProductoTabla() {
+            var url = '@Url.Action("_ListaProductoTabla", "Producto")';
+            $.ajax({
+                type: "POST",
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                dataType: "html",
+                async: false,
+                success: function (response) {
+                    $('#viewListaProductoTabla').html(response);
+                },
+                error: function (response) { console.log(response); }
+
+            });
+        }
+
+         function showProductoCuadro() {
+            var url = '@Url.Action("_ListaProductoCuadros", "Producto")';
+            $.ajax({
+                type: "POST",
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                dataType: "html",
+                async: false,
+                success: function (response) {
+                    $('#viewListaProductoCuadro').html(response);
+                },
+                error: function (response) { console.log(response); }
+
+            });
+        }
+
+        function showModalNuevoProducto() {
+            var url = '@Url.Action("_FormularioNuevoProducto", "Producto")';
+            $.ajax({
+
+                type: "POST",
+                url: url,
+                contentType: "application/json; charset=utf-8",
+                dataType: "html",
+                success: function (response) {
+                    $('#ModalAgregarProducto').html(response);
+                    $('#modal-Producto').modal("show");
+                },
+                error: function (response) { console.log(response); }
+            });
+        }
+
+
+        function verDetallesProducto(producto, descripcion, marca, categoria) {
+            var productoDto = {
+                Nombre: producto,
+                Descripcion: descripcion,
+                Marca_nombre: marca,
+                Categoria_nombre: categoria
+            }
+            var url = '@Url.Action("_detalleProducto", "Producto")';
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: JSON.stringify(productoDto),
+                contentType: "application/json; charset=utf-8",
+                success: function (response) {
+                    $('#ViewDetalleProducto').html(response);
+                }
+            });
+        }
+
+        function EstiloTabla() {
+            $('#tablaProducto').DataTable({
+                "paging": true,
+                "lengthChange": false,
+                "lengthMenu": [[3, 10, 20, -1], [3, 10, 20, "Todos"]],
+                "searching": true,
+                "ordering": true,
+                "info": true,
+                "autoWidth": true,
+                "scrollX": true,
+                language: {
+                    "decimal": "",
+                    "emptyTable": "No hay información",
+                    "info": "Mostrando _START_ a _END_ de _TOTAL_ registros",
+                    "infoEmpty": "Mostrando 0 to 0 of 0 registros",
+                    "infoFiltered": "(Filtrado de _MAX_ total registros)",
+                    "infoPostFix": "",
+                    "thousands": ",",
+                    "lengthMenu": "Mostrar _MENU_ registros",
+                    "loadingRecords": "Cargando...",
+                    "processing": "Procesando...",
+                    "search": "Buscar:",
+                    "zeroRecords": "Sin resultados encontrados",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Ultimo",
+                        "next": "Siguiente",
+                        "previous": "Anterior"
+                    }
+                }
+            })
+        }
+
+        $(function () {
+            showProductoTabla();
+            EstiloTabla();
+            showProductoCuadro();
+        });
+        
+    </script>
+}
+
+
+

@@ -1,0 +1,39 @@
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\bin\Debug\Datos.dll.config
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\bin\Debug\Datos.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\bin\Debug\Datos.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\bin\Debug\Entidades.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\obj\Debug\Datos.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\Datos\obj\Debug\Datos.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\bin\Debug\Datos.dll.config
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\bin\Debug\Datos.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\bin\Debug\Datos.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\bin\Debug\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\obj\Debug\Datos.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\Datos\obj\Debug\Datos.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\bin\Debug\Datos.dll.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\bin\Debug\Datos.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\bin\Debug\Datos.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\bin\Debug\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\bin\Debug\Entidades.dll.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\obj\Debug\Datos.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Datos\obj\Debug\Datos.pdb

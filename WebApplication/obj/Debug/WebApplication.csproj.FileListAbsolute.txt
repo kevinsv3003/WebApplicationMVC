@@ -1,0 +1,261 @@
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\csc.exe
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\vbc.exe
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\WebApplication.dll.config
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\WebApplication.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\WebApplication.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\AjaxControlToolkit.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Antlr3.Runtime.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Autofac.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Autofac.Integration.Mvc.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Dominio.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\EntityFramework.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\IoC.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Newtonsoft.Json.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Owin.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.Helpers.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.Mvc.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.Optimization.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.Razor.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.WebPages.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\WebGrease.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Datos.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Entidades.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\AutoMapper.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Dominio.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\IoC.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Autofac.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Autofac.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Autofac.Integration.Mvc.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\EntityFramework.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.Helpers.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.Mvc.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.Optimization.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.Razor.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.WebPages.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Antlr3.Runtime.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Newtonsoft.Json.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Datos.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\Entidades.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\AutoMapper.pdb
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\bin\AutoMapper.xml
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\ksilva\Downloads\ASP.NET MVC Application with a Custom Layout\C#\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\csc.exe
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\vbc.exe
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\WebApplication.dll.config
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\WebApplication.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\WebApplication.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\AjaxControlToolkit.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Antlr3.Runtime.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Autofac.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Autofac.Integration.Mvc.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Dominio.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\IoC.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Newtonsoft.Json.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Owin.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.Helpers.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.Mvc.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.Optimization.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.Razor.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.WebPages.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\WebGrease.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Datos.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Dominio.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\IoC.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Autofac.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Autofac.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Autofac.Integration.Mvc.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.Helpers.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.Mvc.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.Optimization.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.Razor.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.WebPages.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Antlr3.Runtime.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Newtonsoft.Json.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Datos.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\AutoMapper.pdb
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\bin\AutoMapper.xml
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\ksilva\Desktop\Proyectos\C#\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\csc.exe
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\vbc.exe
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\WebApplication.dll.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\WebApplication.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\WebApplication.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\AjaxControlToolkit.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Antlr3.Runtime.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Autofac.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Autofac.Integration.Mvc.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Dominio.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\IoC.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Newtonsoft.Json.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Owin.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.Helpers.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.Mvc.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.Optimization.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.Razor.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.WebPages.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.WebPages.Razor.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\WebGrease.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Datos.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Dominio.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Entidades.dll.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\IoC.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\IoC.dll.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Autofac.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Autofac.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Autofac.Integration.Mvc.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\AutoMapper.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\AutoMapper.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.Helpers.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.Mvc.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.Optimization.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.Razor.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.WebPages.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\System.Web.WebPages.Razor.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Antlr3.Runtime.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Newtonsoft.Json.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Datos.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Datos.dll.config

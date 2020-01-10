@@ -1,0 +1,205 @@
+﻿
+<div class="modal fade" id="modal-Producto" style="display:none;">
+    <div class="modal-dialog animated jackInTheBox">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fa fa-times"></i>
+                    </button>
+                </div>
+                <h4 class="modal-title text-center"><strong>Nuevo Producto</strong></h4>
+            </div>
+
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Nombre del Producto:</label>
+                                <div id="contentNombre" class="form-group">
+
+                                    <label id="lblSuccessNombre" style="display:none; font-size:small" class="control-label" for="NombreProducto"><i class="fa fa-check"></i> Formato Correcto!</label>
+                                    <label id="lblErrorNombre" style="display:none;  font-size:small" class="control-label" for="NombreProducto"><i class="fa fa-times-circle-o"></i> Formato Incorrecto!</label>
+                                    <input id="NombreProducto" type="text" class="form-control" maxlength="16" placeholder="Escriba el nombre del producto">
+
+                                    @*@Html.TextBox("NombreProducto", "", new { @class = "form-control" })*@
+                                    @*<input type="text" class="form-control" value="Kevin Silva" readonly="readonly" placeholder="Busqueda de Estudiante">*@
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Marca:</label>
+                                <div id="contentMarca" class="form-group">
+                                    <label id="lblSuccessMarca" style="display:none; font-size:small" class="control-label float-right" for="slMarca"><i class="fa fa-check"></i> Formato Correcto!</label>
+                                    <label id="lblErrorMarca" style="display:none;  font-size:small" class="control-label float-right" for="slMarca"><i class="fa fa-times-circle-o"></i> Formato Incorrecto!</label>
+                                    <select id="slMarca" class="form-control">
+                                        <option value=0 selected>..:: Seleccione una Marca ::..</option>
+                                        @foreach (var item in ViewBag.Marcas)
+                                        {
+                                            <option value=@item.IdMarca>@item.Nombre</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Categoría:</label>
+                                <div id="contentCategoria" class="form-group">
+                                    <label id="lblSuccessCategoria" style="display:none; font-size:small" class="control-label float-right" for="slCategoria"><i class="fa fa-check"></i> Formato Correcto!</label>
+                                    <label id="lblErrorCategoria" style="display:none;  font-size:small" class="control-label float-right" for="slCategoria"><i class="fa fa-times-circle-o"></i> Formato Incorrecto!</label>
+                                    <select id="slCategoria" class="form-control">
+                                        <option value=0 selected>..:: Seleccione una Categoría ::..</option>
+                                        @foreach (var item in ViewBag.Categorias)
+                                        {
+                                            <option value=@item.IdCategoria>@item.Tipo</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Descripción del Producto:</label>
+                                <div id="contentDescripcion" class="form-group">
+                                    <label id="lblSuccessDescripcion" style="display:none; font-size:small" class="control-label float-right" for="DescripcionProducto"><i class="fa fa-check"></i> Formato Correcto!</label>
+                                    <label id="lblErrorDescripcion" style="display:none;  font-size:small" class="control-label float-right" for="DescripcionProducto"><i class="fa fa-times-circle-o"></i> Formato Incorrecto!</label>
+                                    @Html.TextArea("DescripcionProducto", "", new { @class = "form-control" })
+                                </div>
+                            </div>
+                        </div>
+
+                        <br />
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <button class="btn btn-block btn-flat btn-linkedin shadow grow" onclick="validacion()">
+                                    <i class="fa fa-save"></i> Guardar Producto
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function GuardarProducto() {
+
+        var producto = {
+            Nombre: document.getElementById("NombreProducto").value,
+            Descripcion: document.getElementById("DescripcionProducto").value,
+            IdMarca: document.getElementById("slMarca").value,
+            IdCategoria: document.getElementById("slCategoria").value
+        }
+        var url = '@Url.Action("GuardarProducto", "Producto")';
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: JSON.stringify(producto),
+            contentType: "application/json; charset=utf-8",
+            success: function (response) {
+                SuccessGuardar(response);
+                showProductoTabla();
+                EstiloTabla();
+                showProductoCuadro();
+            },
+            error: function (response) {
+                console.log(response.responseJSON.Message);
+                FailGuardar(response);
+            }
+        });
+
+    }
+
+    function SuccessGuardar(data) {
+        toastr.success(data.message, 'Excelente', { timeOut: 9000 });
+        LimpiarCampos();
+    }
+    function FailGuardar(data) {
+        toastr.error(data.responseJSON.message + ", favor verifique nuevamente!", 'Error', { timeOut: 3000 })
+        $('#modal-Producto').modal("hide");
+    }
+
+    function LimpiarCampos() {
+        document.getElementById("NombreProducto").value = "";
+        document.getElementById("DescripcionProducto").value = "";
+        document.getElementById("slMarca").value = 0;
+        document.getElementById("slCategoria").value = 0;
+    }
+
+    function validacion() {
+        var nombre = document.getElementById("NombreProducto").value;
+        var marca = document.getElementById("slMarca").value;
+        var categoria = document.getElementById("slCategoria").value;
+        var descripcion = document.getElementById("DescripcionProducto").value;
+
+        if ((/[A-Za-z]{1,60}/.test(nombre))) {
+            $("#lblErrorNombre").hide();
+            $("#lblSuccessNombre").show();
+            $("#contentNombre").removeClass("has-error");
+            $("#contentNombre").addClass("has-success");
+        } else if (!(/[A-Za-z]{1,60}/.test(nombre))){
+            $("#lblSuccessNombre").hide();
+            $("#lblErrorNombre").show();
+            $("#contentNombre").removeClass("has-success");
+            $("#contentNombre").addClass("has-error");
+            $('#NombreProducto').focus();
+            return false;
+        }
+
+        if (marca != 0) {
+            $("#lblErrorMarca").hide();
+            $("#lblSuccessMarca").show();
+            $("#contentMarca").removeClass("has-error");
+            $("#contentMarca").addClass("has-success");
+        } else if (marca == 0) {
+            $("#lblSuccessMarca").hide();
+            $("#lblErrorMarca").show();
+            $("#contentMarca").removeClass("has-success");
+            $("#contentMarca").addClass("has-error");
+            $('#slMarca').focus();
+            return false;
+        }
+
+        if (categoria != 0) {
+            $("#lblErrorCategoria").hide();
+            $("#lblSuccessCategoria").show();
+            $("#contentCategoria").removeClass("has-error");
+            $("#contentCategoria").addClass("has-success");
+        } else if (categoria == 0) {
+            $("#lblSuccessCategoria").hide();
+            $("#lblErrorCategoria").show();
+            $("#contentCategoria").removeClass("has-success");
+            $("#contentCategoria").addClass("has-error");
+            $('#slCategoria').focus();
+            return false;
+        }
+
+        if ((/[A-Za-z]{10,200}/.test(descripcion))) {
+            $("#lblErrorDescripcion").hide();
+            $("#lblSuccessDescripcion").show();
+            $("#contentDescripcion").removeClass("has-error");
+            $("#contentDescripcion").addClass("has-success");
+        } else if (!(/[A-Za-z]{10,200}/.test(descripcion))) {
+            $("#lblSuccessDescripcion").hide();
+            $("#lblErrorDescripcion").show();
+            $("#contentDescripcion").removeClass("has-success");
+            $("#contentDescripcion").addClass("has-error");
+            $('#DescripcionProducto').focus();
+            return false;
+        }
+        GuardarProducto();
+    }
+
+</script>
