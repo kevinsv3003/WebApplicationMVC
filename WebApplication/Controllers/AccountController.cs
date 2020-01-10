@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -49,10 +50,36 @@ namespace WebApplication.Controllers
         }
 
         [AllowAnonymous]
+        public ActionResult LoginPage()
+        {
+            return View();
+        }
+
+        [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
             return View();
+        }
+
+        public async Task<ActionResult> _Loguear(string usuario, string contra)
+        {
+            try
+            {
+                //var result = await SignInManager.PasswordSignInAsync(usuario, contra, false, shouldLockout: false);
+                //if (result == SignInStatus.Success)
+                //{
+                    return RedirectToAction("DashboardV1", "Home");
+                //}
+                //else
+                //{
+                //    return Json(new { message = "Verifique usuario y contraseña nuevamente." });
+                //}
+            }
+            catch (Exception ex)
+            {
+                return Json(new { message = ex.Message });
+            }
         }
 
         [HttpPost]

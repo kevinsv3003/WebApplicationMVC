@@ -1,6 +1,6 @@
 ﻿
 <div class="modal fade" id="modal-Producto" style="display:none;">
-    <div class="modal-dialog animated jackInTheBox">
+    <div class="modal-dialog animated slideInDown">
         <div class="modal-content">
             <div class="modal-header">
                 <div>
@@ -147,13 +147,13 @@
         if ((/[A-Za-z]{1,60}/.test(nombre))) {
             $("#lblErrorNombre").hide();
             $("#lblSuccessNombre").show();
-            $("#contentNombre").removeClass("has-error");
+            $("#contentNombre").removeClass("has-error animated shake");
             $("#contentNombre").addClass("has-success");
         } else if (!(/[A-Za-z]{1,60}/.test(nombre))){
             $("#lblSuccessNombre").hide();
             $("#lblErrorNombre").show();
             $("#contentNombre").removeClass("has-success");
-            $("#contentNombre").addClass("has-error");
+            $("#contentNombre").addClass("has-error animated shake");
             $('#NombreProducto').focus();
             return false;
         }
@@ -161,13 +161,13 @@
         if (marca != 0) {
             $("#lblErrorMarca").hide();
             $("#lblSuccessMarca").show();
-            $("#contentMarca").removeClass("has-error");
+            $("#contentMarca").removeClass("has-error animated shake");
             $("#contentMarca").addClass("has-success");
         } else if (marca == 0) {
             $("#lblSuccessMarca").hide();
             $("#lblErrorMarca").show();
             $("#contentMarca").removeClass("has-success");
-            $("#contentMarca").addClass("has-error");
+            $("#contentMarca").addClass("has-error animated shake");
             $('#slMarca').focus();
             return false;
         }
@@ -175,13 +175,13 @@
         if (categoria != 0) {
             $("#lblErrorCategoria").hide();
             $("#lblSuccessCategoria").show();
-            $("#contentCategoria").removeClass("has-error");
+            $("#contentCategoria").removeClass("has-error animated shake");
             $("#contentCategoria").addClass("has-success");
         } else if (categoria == 0) {
             $("#lblSuccessCategoria").hide();
             $("#lblErrorCategoria").show();
             $("#contentCategoria").removeClass("has-success");
-            $("#contentCategoria").addClass("has-error");
+            $("#contentCategoria").addClass("has-error animated shake");
             $('#slCategoria').focus();
             return false;
         }
@@ -189,13 +189,13 @@
         if ((/[A-Za-z]{10,200}/.test(descripcion))) {
             $("#lblErrorDescripcion").hide();
             $("#lblSuccessDescripcion").show();
-            $("#contentDescripcion").removeClass("has-error");
+            $("#contentDescripcion").removeClass("has-error animated shake");
             $("#contentDescripcion").addClass("has-success");
         } else if (!(/[A-Za-z]{10,200}/.test(descripcion))) {
             $("#lblSuccessDescripcion").hide();
             $("#lblErrorDescripcion").show();
             $("#contentDescripcion").removeClass("has-success");
-            $("#contentDescripcion").addClass("has-error");
+            $("#contentDescripcion").addClass("has-error animated shake");
             $('#DescripcionProducto').focus();
             return false;
         }

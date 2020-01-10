@@ -1,0 +1,247 @@
+﻿
+@{
+    Layout = null;
+    ViewBag.Title = "Log in";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="colorlib">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>School Control</title>
+    @Styles.Render("~/AdminLTE/LoginPage/css/linearicons.css")
+    @Styles.Render("~/AdminLTE/LoginPage/css/font-awesome.min.css")
+    @Styles.Render("~/AdminLTE/LoginPage/css/bootstrap.css")
+    @Styles.Render("~/AdminLTE/LoginPage/css/magnific-popup.css")
+    @Styles.Render("~/AdminLTE/LoginPage/css/owl.carousel.css")
+    @Styles.Render("~/AdminLTE/LoginPage/css/hexagons.min.css")
+    @Styles.Render("~/AdminLTE/LoginPage/css/nice-select.css")
+    @Styles.Render("~/AdminLTE/LoginPage/css/main.css")
+
+    @Styles.Render("~/AdminLTE/bootstrap/css")
+    @Styles.Render("~/AdminLTE/plugins/font-awesome/css")
+    @Styles.Render("~/AdminLTE/plugins/ionicons/css")
+    @Styles.Render("~/AdminLTE/dist/css")
+    @Styles.Render("~/Content/animate.css")
+    @Styles.Render("~/Content/toastr.min.css")
+
+
+</head>
+
+<body style="background-color: #c3e8f5">
+
+    <!--================ Offcanvus Menu Area =================-->
+    <div class="side_menu" style="background-color: #70edc3">
+        <div class="logo">
+            <a href="wfLoginPage.aspx">
+                <img src="~/Content/LoginPage/img/logo.png" />
+            </a>
+        </div>
+        <ul class="list menu-left">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about-us.html">About</a>
+            </li>
+            <li>
+                <a href="service.html">Service</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                        Projects
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="project.html">Project</a>
+                        <a class="dropdown-item" href="project-details.html">Project Details</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="team.html">Team</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                        Pages
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="elements.html">Elements</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button type="button" class="dropdown-toggle" data-toggle="dropdown">
+                        Blog
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="blog.html">Blog</a>
+                        <a class="dropdown-item" href="single-blog.html">Blog Details</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!--================ End Offcanvus Menu Area =================-->
+    <!--================ End Canvus Menu Area =================-->
+    <!--================ start banner Area =================-->
+    <section class="home-banner-area">
+        <div class="container">
+            <div class="row justify-content-end fullscreen">
+                <div class="col-lg-6 col-md-12 home-banner-left d-flex fullscreen align-items-center">
+                    <div>
+                        <div class="text-center">
+                            <h1 class="">
+                                School <span style="color: #0042ff">Control</span>
+                                <br />
+                            </h1>
+                        </div>
+                        <div class="mx-auto mb-40"></div>
+
+                        <div id="formLogin" class="login-box well" style="box-shadow: 20px 26px 35px -9px rgba(0,0,0,0.88);">
+                            <div class="login-box-body">
+                                <p class="login-box-msg" style="color: black; font-weight:bold">Iniciar sesión</p>
+
+                                <div class="form-group has-feedback">
+                                    <input id="txtNombreUsuario" required="required" class="form-control" placeholder="Usuario o Correo Electónico" />
+                                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                </div>
+                                <div class="form-group has-feedback">
+                                    <input id="txtContraseña" required="required" type="password" class="form-control" placeholder="Contraseña" />
+                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-md-offset-3 col-md-6">
+                                        <button class="primary-btn" onclick="Loguear()">Ingresar</button>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <a href="#" onclick="RestaurarContra()">
+                                        <br />
+                                        ¿Olvidó su contraseña?
+
+                                    </a><br />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="formRestaurarContraseña" class="login-box well d-none" style="box-shadow: 20px 26px 35px -9px rgba(0,0,0,0.88);">
+
+                            <div class="login-box-body">
+                                <b>
+                                    <p class="login-box-msg" style="color: black">Restaurar su Contraseña</p>
+                                </b>
+
+                                <form>
+                                    <div class="form-group has-feedback">
+                                        <input id="txtEmail" type="email" required="required" class="form-control" placeholder="Correo Electrónico" />
+                                        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                    </div>
+                                    <br />
+                                    <!-- /.col -->
+                                    <div class="text-center">
+                                        <button type="button" onclick="Restaurar();" class="primary-btn">Confirmar</button>
+                                    </div>
+                                    <div class="text-center">
+                                        <a href="#" onclick="FormLogin()">
+                                            <br />
+                                            Iniciar Sesión
+                                        </a><br />
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12 no-padding home-banner-right d-flex fullscreen align-items-end">
+                    <img class="img-fluid" src="../Content/LoginPage/img/header-img.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @Scripts.Render("~/AdminLTE/LoginPage/js/vendor/jquery-2.2.4.min.js")
+    @Scripts.Render("~/Scripts/toastr.min.js")
+
+    <script>
+        toastr.options = {
+            "closeButton": true,
+            "debug": true,
+            "newestOnTop": true,
+            "progressBar": false,
+            "positionClass": "toast-bottom-full-width",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": 500,
+            "hideDuration": 500,
+            "timeOut": 2500,
+            "extendedTimeOut": 100,
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }
+    </script>
+
+    <script>
+
+        function RestaurarContra() {
+            $("#formLogin").addClass("d-none");
+            $("#formRestaurarContraseña").removeClass("d-none");
+            $("#formRestaurarContraseña").addClass("animated flipInY");
+        }
+
+        function FormLogin() {
+            $("#formRestaurarContraseña").addClass("d-none");
+            $("#formLogin").removeClass("d-none");
+            $("#formLogin").addClass("animated flipInY");
+        }
+
+        function Loguear() {
+            debugger;
+            var usuario = $("#txtNombreUsuario").val();
+            var contra = $("#txtContraseña").val();
+            var data = JSON.stringify({ usuario: usuario, contra: contra });
+            var url = '@Url.Action("_Loguear", "Account")';
+            $.ajax({
+                type: "POST",
+                url: url,
+                data: '{usuario: "' + usuario + '", contra: "' + contra + '" }',
+                contentType: "application/json; charset=utf-8",
+                dataType: "html",
+                async: false,
+                success: function (response) {
+                    toastr.success("Excelente"+ ", favor verifique nuevamente!", 'Excelente', { timeOut: 3000 }) 
+                },
+                error: function (response) { toastr.error("Error" + ", favor verifique nuevamente!", 'Error', { timeOut: 3000 }) }
+            });
+        }
+
+
+    </script>
+
+</body>
+
+</html>
+

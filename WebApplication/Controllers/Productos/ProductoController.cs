@@ -31,20 +31,41 @@ namespace WebApplication.Controllers.Productos
 
         public ActionResult _ListaProductoTabla()
         {
-            var listaProducto = productoDominio.ObtenerListaProductos();
-            return PartialView(listaProducto);
+            try
+            {
+                var listaProducto = productoDominio.ObtenerListaProductos();
+                return PartialView(listaProducto);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { message = ex.Message });
+            }
         }
 
         public ActionResult _ListaProductoCuadros()
         {
-            var listaProducto = productoDominio.ObtenerListaProductos();
-            return PartialView(listaProducto);
+            try
+            {
+                var listaProducto = productoDominio.ObtenerListaProductos();
+                return PartialView(listaProducto);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { message = ex.Message });
+            }
         }
 
         public async Task<ActionResult> _DetallesProducto(int productoId)
         {
-            var producto = productoDominio.ObtenerProductoPorId(productoId);
-            return PartialView(producto);
+            try
+            {
+                var producto = productoDominio.ObtenerProductoPorId(productoId);
+                return PartialView(producto);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { message = ex.Message });
+            }
         }
 
         public ActionResult _detalleProducto(ProductoDto pro)
@@ -54,12 +75,20 @@ namespace WebApplication.Controllers.Productos
 
         public ActionResult _FormularioNuevoProducto()
         {
-            var marcas = marcaDominio.ObtenerListaMarca();
-            var categorias = categoriaDominio.ObtenerListaCategoria();
-            
-            ViewBag.Marcas = marcas;
-            ViewBag.Categorias = categorias;
-            return PartialView();
+            try
+            {
+                var marcas = marcaDominio.ObtenerListaMarca();
+                var categorias = categoriaDominio.ObtenerListaCategoria();
+
+                ViewBag.Marcas = marcas;
+                ViewBag.Categorias = categorias;
+                return PartialView();
+            }
+            catch (Exception ex)
+            {
+                return Json(new { message = ex.Message });
+            }
+
         }
 
         public ActionResult GuardarProducto(ProductoDto pro)
@@ -70,7 +99,7 @@ namespace WebApplication.Controllers.Productos
                 var retorno = productoDominio.AgregarProducto(pro);
                 message = "Se registró el producto correctamente!!";
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return Json(new { message = ex.Message });
             }
