@@ -1,4 +1,4 @@
-﻿
+﻿@model WebApplication.Models.LoginViewModel
 @{
     Layout = null;
     ViewBag.Title = "Log in";
@@ -46,7 +46,7 @@
     <div class="side_menu" style="background-color: #70edc3">
         <div class="logo">
             <a href="wfLoginPage.aspx">
-                <img src="~/Content/LoginPage/img/logo.png" />
+                <img src="~/AdminLTE/LoginPage/img/logo.png" />
             </a>
         </div>
         <ul class="list menu-left">
@@ -115,33 +115,47 @@
                         </div>
                         <div class="mx-auto mb-40"></div>
 
-                        <div id="formLogin" class="login-box well" style="box-shadow: 20px 26px 35px -9px rgba(0,0,0,0.88);">
-                            <div class="login-box-body">
-                                <p class="login-box-msg" style="color: black; font-weight:bold">Iniciar sesión</p>
 
-                                <div class="form-group has-feedback">
-                                    <input id="txtNombreUsuario" required="required" class="form-control" placeholder="Usuario o Correo Electónico" />
-                                    <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
-                                </div>
-                                <div class="form-group has-feedback">
-                                    <input id="txtContraseña" required="required" type="password" class="form-control" placeholder="Contraseña" />
-                                    <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-                                </div>
-                                <br />
-                                <div class="row">
-                                    <div class="col-md-offset-3 col-md-6">
-                                        <button class="primary-btn" onclick="Loguear()">Ingresar</button>
+                        @using (Html.BeginForm("LoginPage", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { role = "form" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @*@Html.ValidationSummary(true, "", new { @class = "text-danger" })*@
+
+                            <div id="formLogin" class="login-box well" style="box-shadow: 20px 26px 35px -9px rgba(0,0,0,0.88);">
+                                <div class="login-box-body">
+                                    <p class="login-box-msg" style="color: black; font-weight:bold">Iniciar sesión</p>
+                                    <input id="txtError" style="display:none" value=@ViewBag.Error />
+                                    <div class="text-danger" asp-validation-summary="All">
+                                        <div class="form-group has-feedback">
+                                            @Html.TextBoxFor(a => a.Email, new { @class = "form-control", @placeholder = "Usuario o Correo Electónico", @required = "required" })
+                                            @*<input id="txtNombreUsuario" required="required" class="form-control" placeholder="Usuario o Correo Electónico" />*@
+                                            <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                                            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                                        </div>
+                                        <div class="form-group has-feedback">
+                                            @Html.PasswordFor(a => a.Password, new { @class = "form-control", @placeholder = "Contraseña", @required = "required" })
+                                            @*<input id="txtContraseña" required="required" type="password" class="form-control" placeholder="Contraseña" />*@
+                                            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                        </div>
+                                        <br />
+                                        <div class="row">
+                                            <div class="col-md-offset-3 col-md-6">
+                                                <input type="submit" class="primary-btn" value="Ingresar" />
+                                                @*<button class="primary-btn" onclick="Loguear()">Ingresar</button>*@
+                                            </div>
+                                        </div>
+                                        <div class="text-center">
+                                            <a href="#" onclick="RestaurarContra()">
+                                                <br />
+                                                ¿Olvidó su contraseña?
+
+                                            </a><br />
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="text-center">
-                                    <a href="#" onclick="RestaurarContra()">
-                                        <br />
-                                        ¿Olvidó su contraseña?
-
-                                    </a><br />
-                                </div>
                             </div>
-                        </div>
+                        }
 
                         <div id="formRestaurarContraseña" class="login-box well d-none" style="box-shadow: 20px 26px 35px -9px rgba(0,0,0,0.88);">
 
@@ -175,14 +189,20 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12 no-padding home-banner-right d-flex fullscreen align-items-end">
-                    <img class="img-fluid" src="../Content/LoginPage/img/header-img.png" />
+                    <img class="img-fluid" src="../AdminLTE/LoginPage/img/header-img.png" />
                 </div>
             </div>
         </div>
     </section>
 
-    @Scripts.Render("~/AdminLTE/LoginPage/js/vendor/jquery-2.2.4.min.js")
+    @Scripts.Render("~/AdminLTE/plugins/jquery/js")
+    @Scripts.Render("~/AdminLTE/bootstrap/js")
+    @Scripts.Render("~/AdminLTE/plugins/slimscroll/js")
+    @Scripts.Render("~/AdminLTE/plugins/fastclick/js")
+    @Scripts.Render("~/Scripts/Shared/_Layout")
+    @Scripts.Render("~/AdminLTE/dist/js")
     @Scripts.Render("~/Scripts/toastr.min.js")
+
 
     <script>
         toastr.options = {
@@ -218,29 +238,14 @@
             $("#formLogin").addClass("animated flipInY");
         }
 
-        function Loguear() {
-            debugger;
-            var usuario = $("#txtNombreUsuario").val();
-            var contra = $("#txtContraseña").val();
-            var data = JSON.stringify({ usuario: usuario, contra: contra });
-            var url = '@Url.Action("_Loguear", "Account")';
-            $.ajax({
-                type: "POST",
-                url: url,
-                data: '{usuario: "' + usuario + '", contra: "' + contra + '" }',
-                contentType: "application/json; charset=utf-8",
-                dataType: "html",
-                async: false,
-                success: function (response) {
-                    toastr.success("Excelente"+ ", favor verifique nuevamente!", 'Excelente', { timeOut: 3000 }) 
-                },
-                error: function (response) { toastr.error("Error" + ", favor verifique nuevamente!", 'Error', { timeOut: 3000 }) }
-            });
-        }
-
+        $(function Error() {
+            var txterr = document.getElementById("txtError").value;
+            if (txterr == "error") {
+                toastr.error("Usuario o Contraseña Incorrecntas, favor verifique nuevamente!", 'Error', { timeOut: 3000 });
+            }
+        });
 
     </script>
-
 </body>
 
 </html>

@@ -4,6 +4,7 @@ using Dominio.EntidadesDto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -38,6 +39,7 @@ namespace WebApplication.Controllers.Productos
             }
             catch (Exception ex)
             {
+                General.getResonseBadRequest(Response, HttpStatusCode.BadRequest);
                 return Json(new { message = ex.Message });
             }
         }
@@ -51,6 +53,7 @@ namespace WebApplication.Controllers.Productos
             }
             catch (Exception ex)
             {
+                General.getResonseBadRequest(Response, HttpStatusCode.BadRequest);
                 return Json(new { message = ex.Message });
             }
         }
@@ -64,6 +67,7 @@ namespace WebApplication.Controllers.Productos
             }
             catch (Exception ex)
             {
+                General.getResonseBadRequest(Response, HttpStatusCode.BadRequest);
                 return Json(new { message = ex.Message });
             }
         }
@@ -73,6 +77,7 @@ namespace WebApplication.Controllers.Productos
             return PartialView("_DetallesProducto", pro);
         }
 
+        [AllowAnonymous]
         public ActionResult _FormularioNuevoProducto()
         {
             try
@@ -86,6 +91,7 @@ namespace WebApplication.Controllers.Productos
             }
             catch (Exception ex)
             {
+                General.getResonseBadRequest(Response, HttpStatusCode.BadRequest);
                 return Json(new { message = ex.Message });
             }
 
@@ -100,10 +106,27 @@ namespace WebApplication.Controllers.Productos
                 message = "Se registró el producto correctamente!!";
             }
             catch (Exception ex)
-            {
+            {                
+                General.getResonseBadRequest(Response, HttpStatusCode.BadRequest);
                 return Json(new { message = ex.Message });
             }
             return Json(new { message = message });
+        }
+
+        public ActionResult _EliminarProducto(int productoId)
+        {
+            var mensaje = string.Empty;
+            try
+            {
+                var retorno = productoDominio.EliminarProducto(productoId);
+                mensaje = "Se eliminó el producto correctamente!!";
+            }
+            catch (Exception ex)
+            {
+                General.getResonseBadRequest(Response, HttpStatusCode.BadRequest);
+                return Json(new { message = ex.Message });
+            }
+            return Json(data: new { message = mensaje });
         }
     }
 }

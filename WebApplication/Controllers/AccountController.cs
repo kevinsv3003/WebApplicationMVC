@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
@@ -50,8 +51,9 @@ namespace WebApplication.Controllers
         }
 
         [AllowAnonymous]
-        public ActionResult LoginPage()
+        public ActionResult LoginPage(string returnUrl)
         {
+            ViewBag.ReturnUrl = returnUrl;
             return View();
         }
 
@@ -62,25 +64,36 @@ namespace WebApplication.Controllers
             return View();
         }
 
-        public async Task<ActionResult> _Loguear(string usuario, string contra)
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> LoginPage(LoginViewModel model, string returnUrl)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                //var result = await SignInManager.PasswordSignInAsync(usuario, contra, false, shouldLockout: false);
-                //if (result == SignInStatus.Success)
-                //{
-                    return RedirectToAction("DashboardV1", "Home");
-                //}
-                //else
-                //{
-                //    return Json(new { message = "Verifique usuario y contraseña nuevamente." });
-                //}
+                return View(model);
             }
-            catch (Exception ex)
+
+            // This doesn't count login failures towards account lockout
+            // To enable password failures to trigger account lockout, change to shouldLockout: true
+            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, false, shouldLockout: false);
+            switch (result)
             {
-                return Json(new { message = ex.Message });
+                case SignInStatus.Success:
+                    return RedirectToLocal(returnUrl);
+                case SignInStatus.LockedOut:
+                    return View("Lockout");
+                case SignInStatus.RequiresVerification:
+                    return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = model.RememberMe });
+                case SignInStatus.Failure:
+                default:
+                    ModelState.AddModelError("", "Usuario o Contraseña Incorrectos.");
+                    ViewBag.Error = "error";
+                    return View(model);
             }
         }
+
+        
 
         [HttpPost]
         [AllowAnonymous]
@@ -384,6 +397,13 @@ namespace WebApplication.Controllers
         public ActionResult ExternalLoginFailure()
         {
             return View();
+        }
+
+
+    
+        public ActionResult _Loguear(string usuario, string contra)
+        {
+            return RedirectToAction("Login", "Account");
         }
 
         protected override void Dispose(bool disposing)

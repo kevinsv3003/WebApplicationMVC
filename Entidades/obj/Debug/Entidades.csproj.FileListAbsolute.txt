@@ -18,3 +18,15 @@ C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\bin\Debug\EntityFramework.SqlServ
 C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\obj\Debug\Entidades.dll
 C:\Users\ksilva\Desktop\Proyectos\C#\Entidades\obj\Debug\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\bin\Debug\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\bin\Debug\Entidades.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\obj\Debug\Entidades.dll
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\Entidades\obj\Debug\Entidades.pdb

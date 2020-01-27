@@ -48,6 +48,7 @@
     <Compile Include="Contratos\IMarcaDominio.cs" />
     <Compile Include="Contratos\IProductoDominio.cs" />
     <Compile Include="EntidadesDto\CategoriaDto.cs" />
+    <Compile Include="EntidadesDto\EmailDto.cs" />
     <Compile Include="EntidadesDto\MarcaDto.cs" />
     <Compile Include="EntidadesDto\ProductoDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -109,35 +109,27 @@
             data: JSON.stringify(producto),
             contentType: "application/json; charset=utf-8",
             success: function (response) {
-                SuccessGuardar(response);
+                LimpiarCampos();
+                SuccessGuardar(response);               
                 showProductoTabla();
                 EstiloTabla();
                 showProductoCuadro();
             },
             error: function (response) {
-                console.log(response.responseJSON.Message);
+                console.log(response.message);
                 FailGuardar(response);
+                HideModalProducto();
             }
         });
 
     }
-
-    function SuccessGuardar(data) {
-        toastr.success(data.message, 'Excelente', { timeOut: 9000 });
-        LimpiarCampos();
-    }
-    function FailGuardar(data) {
-        toastr.error(data.responseJSON.message + ", favor verifique nuevamente!", 'Error', { timeOut: 3000 })
-        $('#modal-Producto').modal("hide");
-    }
-
+        
     function LimpiarCampos() {
         document.getElementById("NombreProducto").value = "";
         document.getElementById("DescripcionProducto").value = "";
         document.getElementById("slMarca").value = 0;
         document.getElementById("slCategoria").value = 0;
     }
-
     function validacion() {
         var nombre = document.getElementById("NombreProducto").value;
         var marca = document.getElementById("slMarca").value;
@@ -200,6 +192,9 @@
             return false;
         }
         GuardarProducto();
+    }
+    function HideModalProducto() {
+        $('#modal-Producto').modal("hide");
     }
 
 </script>

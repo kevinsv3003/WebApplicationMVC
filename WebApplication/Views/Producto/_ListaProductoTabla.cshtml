@@ -52,6 +52,9 @@
                             <a class="btn btn-flat btn-linkedin shadow grow btn-sp btnaccion" onclick="verDetallesProducto('@item.Nombre','@item.Descripcion','@item.Marca_nombre.ToString()', '@item.Categoria_nombre')" data-toggle="tooltip" data-html="true" data-placement="left" title="<h6><i class='fa fa-search' aria-hidden='true'></i> Ver Detalles</h6>">
                                 <i class="fa fa-search"></i>
                             </a>
+                            <a class="btn btn-flat btn-linkedin shadow grow btn-sp btnaccion" onclick="showModalEliminar(@item.IdProducto)" data-toggle="tooltip" data-html="true" data-placement="left" title="<h6><i class='fa fa-remove' aria-hidden='true'></i> Eliminar</h6>">
+                                <i class="fa fa-remove"></i>
+                            </a>
                         </td>
                     </tr>
                 }

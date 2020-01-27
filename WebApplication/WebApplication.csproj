@@ -83,6 +83,9 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="RazorEngine, Version=3.10.0.0, Culture=neutral, PublicKeyToken=9ee697374c7e744a, processorArchitecture=MSIL">
+      <HintPath>..\packages\RazorEngine.3.10.0\lib\net45\RazorEngine.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -202,6 +205,7 @@
     <Compile Include="Controllers\TablesController.cs" />
     <Compile Include="Controllers\WidgetsController.cs" />
     <Compile Include="Extensions\ClaimsExtensions.cs" />
+    <Compile Include="General.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -711,9 +715,12 @@
     <Content Include="Views\Producto\_ListaProductoTabla.cshtml" />
     <Content Include="Views\Producto\_ListaProductoCuadros.cshtml" />
     <Content Include="Views\Account\LoginPage.cshtml" />
+    <Content Include="Views\Plantillas\Email_RestaurarContra.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Login\" />
+    <Folder Include="Views\Seguridad\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

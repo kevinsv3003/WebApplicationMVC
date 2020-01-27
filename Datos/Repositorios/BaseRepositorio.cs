@@ -66,7 +66,8 @@ namespace Datos.Repositorios
             T entidad = this.BuscarPorId(identificador);
             if (entidad != null)
             {
-                this.Eliminar(entidad);
+                BaseDatosColeccion.Remove(entidad);
+                BaseDatosContexto.SaveChanges();
             }
         }
     }

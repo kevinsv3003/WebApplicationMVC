@@ -48,7 +48,7 @@ namespace Dominio.ReglasNegocio
             var retorno = false;
             try
             {
-                var productoId = productoRepo.ListarTodos().LastOrDefault().IdProducto;
+                var productoId = (productoRepo.ListarTodos().Count > 0) ? productoRepo.ListarTodos().LastOrDefault().IdProducto : 0;
                 pro.IdProducto = productoId + 1;
                 var producto = Mapper.Map<ProductoDto, Producto>(pro);
 
@@ -60,6 +60,21 @@ namespace Dominio.ReglasNegocio
                 throw new Exception("Ocurrio un problema al registrar Producto");
             }
 
+            return retorno;
+        }
+
+        public bool EliminarProducto(int ProductoId)
+        {
+            var retorno = false;
+            try
+            {
+                productoRepo.Eliminar(ProductoId);
+                retorno = true;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ocurrió un problema al eliminar Producto");
+            }
             return retorno;
         }
 

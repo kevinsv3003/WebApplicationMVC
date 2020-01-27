@@ -226,8 +226,6 @@ C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\IoC.dll.co
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Autofac.pdb
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Autofac.xml
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Autofac.Integration.Mvc.xml
-C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\AutoMapper.pdb
-C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\AutoMapper.xml
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\EntityFramework.xml
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\EntityFramework.SqlServer.xml
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.AspNet.Identity.Core.xml
@@ -253,9 +251,9 @@ C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Datos.pdb
+C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Datos.dll.config
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\obj\Debug\WebApplication.dll
 C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\obj\Debug\WebApplication.pdb
-C:\Users\ksilva\Desktop\Proyectos\Prueba_MVC_Kevin\WebApplication\bin\Datos.dll.config

@@ -13,5 +13,6 @@ namespace Dominio.Contratos
         List<ProductoDto> ObtenerListaProductos();
         bool AgregarProducto(ProductoDto pro);
         bool ActualizarProducto(ProductoDto pro);
+        bool EliminarProducto(int ProductoId);
     }
 }
